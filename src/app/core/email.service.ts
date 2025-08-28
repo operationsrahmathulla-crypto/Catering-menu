@@ -24,6 +24,13 @@ export class EmailService {
         email: this.replyTo,
         phone: order.phoneNumber
       };
+
+
+      if (order.email && order.email.trim() !== '') {
+        templateParams.reply_to = order.email;
+      } else {
+        templateParams.reply_to = 'User did not provide an email'; 
+      }
   
       return emailjs.send(this.serviceID, this.templateID, templateParams, this.userID);
     }
