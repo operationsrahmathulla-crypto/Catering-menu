@@ -68,6 +68,7 @@ export const PRODUCT_LIST: Product[] = [
   { id: 57, name: 'Beef Chilly', image: 'assets/images/products-img/vegsamosa.jpeg', category: 'Catering', subcategory: 'Beef' },
   { id: 58, name: 'Beef Ulathiyath', image: 'assets/images/products-img/vegcutlet.jpeg', category: 'Catering', subcategory: 'Beef' },
 
+  
   //fish
   { id:59, name: 'Fish Moly', image: 'assets/images/products-img/fishpop.jpeg', category: 'Catering', subcategory: 'Fish' },
   { id:60, name: 'Fish Pickle', image: 'assets/images/products-img/potataopops.jpeg', category: 'Catering', subcategory: 'Fish' },
