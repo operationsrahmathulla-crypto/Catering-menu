@@ -31,7 +31,7 @@ import { Product } from './data/product';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'DOREA_CATERING_AND_EVENTS';
+  title = 'RAHMATHULLA_CATERING_AND_EVENTS';
 
   showShareModal = false;
   showFooter = false;
@@ -43,7 +43,7 @@ export class AppComponent {
   hideHeaderAndCategory = false;
 
   shareData = {
-    title: 'Dorea Catering service and events',
+    title: 'Rahmathulla Catering service and events',
     text: 'Check out this awesome catering platform!',
     url: ''
   };

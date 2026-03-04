@@ -1,5 +1,5 @@
 {
-  "name": "dorea-catering-and-events",
+  "name": "rahmathulla-catering-and-events",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:DOREA_CATERING_AND_EVENTS": "node dist/dorea-catering-and-events/server/server.mjs"
+    "serve:ssr:RAHMATHULLA_CATERING_AND_EVENTS": "node dist/rahmathulla-catering-and-events/server/server.mjs"
   },
   "private": true,
   "dependencies": {
