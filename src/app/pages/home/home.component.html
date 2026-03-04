@@ -60,7 +60,6 @@
                 <img src="assets/images/loading.gif" alt="Loading..." class="w-10 h-10 opacity-50" />
               </div>
 
-              <!-- Actual Image -->
               <img [src]="event.image" [alt]="event.name"
                 class="w-full h-44 sm:h-56 md:h-64 object-cover transition-transform duration-700 group-hover:scale-105"
                 [class.opacity-0]="!event.loaded" [class.opacity-100]="event.loaded" (load)="event.loaded = true"
