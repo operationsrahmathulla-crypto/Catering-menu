@@ -17,7 +17,7 @@ export class EmailService {
       const orderDetails = this.generateOrderMessage(order);
   
       const templateParams = {
-        to_name: 'Dorea catering and events ',
+        to_name: 'Rahmathulla catering and events ',
         from_name: order.name,
         message: orderDetails,
         reply_to: order.email,
