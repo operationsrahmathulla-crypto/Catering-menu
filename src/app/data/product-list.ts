@@ -9,17 +9,17 @@ export const PRODUCT_LIST: Product[] = [
   { id: 5, name: 'Appam', image: 'assets/images/products-img/Appam.avif', category: 'Catering', subcategory: 'Breads' },
   { id: 6, name: 'Idiyappam', image: 'assets/images/products-img/idiyappam.jpeg', category: 'Catering', subcategory: 'Breads' },
   { id: 7, name: 'Dosa', image: 'assets/images/products-img/Dosa.jpg', category: 'Catering', subcategory: 'Breads' },
-  { id: 8, name: 'Masala Dosa', image: 'assets/images/products-img/Masala dosa.jpg', category: 'Catering', subcategory: 'Breads' },
+  { id: 8, name: 'Masala Dosa', image: 'assets/images/products-img/masaladosa.jpg', category: 'Catering', subcategory: 'Breads' },
   { id: 9, name: 'Chirattaputtu', image: 'assets/images/products-img/chirattaputtu.jpg', category: 'Catering', subcategory: 'Breads' },
   { id: 10, name: 'Ghee Roast', image: 'assets/images/products-img/GheeRoast.webp', category: 'Catering', subcategory: 'Breads' },
   { id: 11, name: 'Oratty', image: 'assets/images/products-img/oratty.jpeg', category: 'Catering', subcategory: 'Breads' },
   { id: 12, name: 'Poori', image: 'assets/images/products-img/poori.jpg', category: 'Catering', subcategory: 'Breads' },
   { id: 13, name: 'Battoori', image: 'assets/images/products-img/Batoori.jpg', category: 'Catering', subcategory: 'Breads' },
   { id: 14, name: 'Palappam', image: 'assets/images/products-img/Palappam.webp', category: 'Catering', subcategory: 'Breads' },
-  { id: 15, name: 'Romali Rotty', image: 'assets/images/products-img/Romali rotty.jpeg', category: 'Catering', subcategory: 'Breads' },
+  { id: 15, name: 'Romali Rotty', image: 'assets/images/products-img/romalirotty.jpg', category: 'Catering', subcategory: 'Breads' },
   //chicken
-  { id: 16, name: 'Chicken Roast', image: 'assets/images/products-img/chickenRoast.jpg', category: 'Catering', subcategory: 'Chicken' },
-  { id: 17, name: 'Chicken Fry', image: 'assets/images/products-img/chickenFry.jpg', category: 'Catering', subcategory: 'Chicken' },
+  { id: 16, name: 'Chicken Roast', image: 'assets/images/products-img/chickenroast.webp', category: 'Catering', subcategory: 'Chicken' },
+  { id: 17, name: 'Chicken Fry', image: 'assets/images/products-img/chickenfry.jpg', category: 'Catering', subcategory: 'Chicken' },
   { id: 18, name: 'Chicken Masala', image: 'assets/images/products-img/chickenmasala.jpg', category: 'Catering', subcategory: 'Chicken' },
   { id: 19, name: 'Chicken Chilli', image: 'assets/images/products-img/chickenChilly.jpg', category: 'Catering', subcategory: 'Chicken' },
   { id: 20, name: 'Chicken Stew', image: 'assets/images/products-img/chickenstew.jpg', category: 'Catering', subcategory: 'Chicken' },
@@ -33,7 +33,7 @@ export const PRODUCT_LIST: Product[] = [
   // Rice items
   { id: 27, name: 'Chicken Biriyani', image: 'assets/images/products-img/ChickenBiryani.jpg', category: 'Catering', subcategory: 'Rice Items' },
   { id: 28, name: 'Mutton Biriyani', image: 'assets/images/products-img/muttonbiriyani.jpg', category: 'Catering', subcategory: 'Rice Items' },
-  { id: 29, name: 'Beef Biriyani', image: 'assets/images/products-img/beef biriyani.jpg', category: 'Catering', subcategory: 'Rice Items' },
+  { id: 29, name: 'Beef Biriyani', image: 'assets/images/products-img/beefbiriyani.jpeg', category: 'Catering', subcategory: 'Rice Items' },
   { id: 30, name: 'Fish Biriyani', image: 'assets/images/products-img/fishbiriyani.webp', category: 'Catering', subcategory: 'Rice Items' },
   { id: 31, name: 'Thalassery Dum Biriyani', image: 'assets/images/products-img/thalassery-dum-biriyani.jpg', category: 'Catering', subcategory: 'Rice Items' },
   { id: 32, name: 'Fried Rice', image: 'assets/images/products-img/friedrice.webp', category: 'Catering', subcategory: 'Rice Items' },
@@ -53,8 +53,8 @@ export const PRODUCT_LIST: Product[] = [
   { id: 45, name: 'Stew', image: 'assets/images/products-img/Vegetable-Stew.jpg', category: 'Catering', subcategory: 'Vegetable' },
   { id: 46, name: 'Paneer Tikka', image: 'assets/images/products-img/paneer-tikka.jpg', category: 'Catering', subcategory: 'Vegetable' },
   { id: 47, name: 'Paneer Masala', image: 'assets/images/products-img/paneer-masala.jpg', category: 'Catering', subcategory: 'Vegetable' },
-  { id: 48, name: 'Palak Paneer', image: 'assets/images/products-img/palak paneer.jpg', category: 'Catering', subcategory: 'Vegetable' },
-  { id: 49, name: 'Butter Paneer Masala', image: 'assets/images/products-img/butter paneer masala.jpg', category: 'Catering', subcategory: 'Vegetable' },
+  { id: 48, name: 'Palak Paneer', image: 'assets/images/products-img/palakpaneer.webp', category: 'Catering', subcategory: 'Vegetable' },
+  { id: 49, name: 'Butter Paneer Masala', image: 'assets/images/products-img/butterpaneer.jpg', category: 'Catering', subcategory: 'Vegetable' },
 
   //beef
   { id: 50, name: 'Beef Curry', image: 'assets/images/products-img/Beefcurry.jpeg', category: 'Catering', subcategory: 'Beef' },
@@ -70,11 +70,11 @@ export const PRODUCT_LIST: Product[] = [
 
   //fish
   { id: 59, name: 'Fish Moly', image: 'assets/images/products-img/Fish-Molee-2-3.jpg', category: 'Catering', subcategory: 'Fish' },
-  { id: 60, name: 'Fish Pickle', image: 'assets/images/products-img/fish pickle.jpg', category: 'Catering', subcategory: 'Fish' },
-  { id: 61, name: 'Fish Curry', image: 'assets/images/products-img/fish curry.jpg', category: 'Catering', subcategory: 'Fish' },
+  { id: 60, name: 'Fish Pickle', image: 'assets/images/products-img/fishpickle.png', category: 'Catering', subcategory: 'Fish' },
+  { id: 61, name: 'Fish Curry', image: 'assets/images/products-img/fishcurry.jpg', category: 'Catering', subcategory: 'Fish' },
   { id: 62, name: 'Fish Fry', image: 'assets/images/products-img/fishfry.jpg', category: 'Catering', subcategory: 'Fish' },
-  { id: 63, name: 'Fish Chilly', image: 'assets/images/products-img/fish chilly.jpg', category: 'Catering', subcategory: 'Fish' },
-  { id: 64, name: 'Fish Roast', image: 'assets/images/products-img/fish roast.JPG', category: 'Catering', subcategory: 'Fish' },
+  { id: 63, name: 'Fish Chilly', image: 'assets/images/products-img/fishchilly.jpg', category: 'Catering', subcategory: 'Fish' },
+  { id: 64, name: 'Fish Roast', image: 'assets/images/products-img/fishroast.jpg', category: 'Catering', subcategory: 'Fish' },
   { id: 65, name: 'Fish Thoran', image: 'assets/images/products-img/fishthoran.webp', category: 'Catering', subcategory: 'Fish' },
   { id: 66, name: 'Kappa', image: 'assets/images/products-img/kappa.webp', category: 'Catering', subcategory: 'Fish' },
   { id: 67, name: 'Curry', image: 'assets/images/products-img/Kerala-Fish-Curry.jpg', category: 'Catering', subcategory: 'Fish' },
@@ -120,11 +120,11 @@ export const PRODUCT_LIST: Product[] = [
 
   // ice cream
   { id: 99, name: '50,75,100ml', image: 'assets/images/products-img/50mlicecream.jpg', category: 'Catering', subcategory: 'Ice-cream' },
-  { id: 100, name: 'Kasatta', image: 'assets/images/products-img/kasatta.jpg', category: 'Catering', subcategory: 'Ice-cream' },
+  { id: 100, name: 'cassata', image: 'assets/images/products-img/kasatta.jpg', category: 'Catering', subcategory: 'Ice-cream' },
   { id: 101, name: 'Khulfi', image: 'assets/images/products-img/Khulfi.avif', category: 'Catering', subcategory: 'Ice-cream' },
   { id: 102, name: 'Fruit Salad', image: 'assets/images/products-img/fruitsalad.jpg', category: 'Catering', subcategory: 'Ice-cream' },
   { id: 103, name: 'Bulk Flavour', image: 'assets/images/products-img/Bulk.jpg', category: 'Catering', subcategory: 'Ice-cream' },
-  { id: 104, name: 'Butter Skate', image: 'assets/images/products-img/butterskate.jpeg', category: 'Catering', subcategory: 'Ice-cream' },
+  { id: 104 , name: 'Butter Scotch', image: 'assets/images/products-img/butterskate.jpeg', category: 'Catering', subcategory: 'Ice-cream' },
 
   //Drinks
   { id: 105, name: 'Coco Cola', image: 'assets/images/products-img/cococola.jpg', category: 'Catering', subcategory: 'Drinks' },
@@ -132,12 +132,12 @@ export const PRODUCT_LIST: Product[] = [
   { id: 107, name: 'MirInda', image: 'assets/images/products-img/mirinda.webp', category: 'Catering', subcategory: 'Drinks' },
   { id: 108, name: 'Pepsi', image: 'assets/images/products-img/pepsi.webp', category: 'Catering', subcategory: 'Drinks' },
   { id: 109, name: 'Soda', image: 'assets/images/products-img/soda.webp', category: 'Catering', subcategory: 'Drinks' },
-  { id: 110, name: 'Gulab Jam', image: 'assets/images/products-img/gulab jam.avif', category: 'Catering', subcategory: 'Drinks' },
+  { id: 110, name: 'Gulab Jam', image: 'assets/images/products-img/gulabjam.jpg', category: 'Catering', subcategory: 'Drinks' },
   { id: 111, name: 'Payasam', image: 'assets/images/products-img/payasam.jpeg', category: 'Catering', subcategory: 'Drinks' },
 
   //Special items
 
-  { id: 112, name: 'Mutton Soup', image: 'assets/images/products-img/mutton soup.avif', category: 'Catering', subcategory: 'Special Items' },
+  { id: 112, name: 'Mutton Soup', image: 'assets/images/products-img/muttonsoup.jpeg', category: 'Catering', subcategory: 'Special Items' },
   { id: 113, name: 'Vegetable Soup', image: 'assets/images/products-img/vegsoup.jpg', category: 'Catering', subcategory: 'Special Items' },
 
   //decoration category
