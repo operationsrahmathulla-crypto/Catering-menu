@@ -124,7 +124,7 @@ export const PRODUCT_LIST: Product[] = [
   { id: 101, name: 'Khulfi', image: 'assets/images/products-img/Khulfi.avif', category: 'Catering', subcategory: 'Ice-cream' },
   { id: 102, name: 'Fruit Salad', image: 'assets/images/products-img/fruitsalad.jpg', category: 'Catering', subcategory: 'Ice-cream' },
   { id: 103, name: 'Bulk Flavour', image: 'assets/images/products-img/Bulk.jpg', category: 'Catering', subcategory: 'Ice-cream' },
-  { id: 104, name: 'Butter Scotch', image: 'assets/images/products-img/butterskate.jpeg', category: 'Catering', subcategory: 'Ice-cream' },
+  { id: 104 , name: 'Butter Scotch', image: 'assets/images/products-img/butterskate.jpeg', category: 'Catering', subcategory: 'Ice-cream' },
 
   //Drinks
   { id: 105, name: 'Coco Cola', image: 'assets/images/products-img/cococola.jpg', category: 'Catering', subcategory: 'Drinks' },
