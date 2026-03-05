@@ -1,4 +1,4 @@
-<div class=" flex flex-col bg-gradient-to-r from-[#5d7dd3] to-[#ee4d4d] relative overflow-hidden"
+<div class=" flex flex-col bg-gradient-to-br from-white via-blue-200 to-blue-50 relative overflow-hidden"
   style="font-family: 'Inter', sans-serif;">
 
   <!-- Decorative Pattern -->
@@ -28,7 +28,7 @@
 
     <!-- Heading -->
     <div class="text-center space-y-2 sm:space-y-3">
-      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-white tracking-tight leading-tight"
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-black tracking-tight leading-tight"
         style="font-family: 'Playfair Display', serif;">
         Explore Our Event Services
       </h2>
@@ -38,14 +38,14 @@
     <div class="grid gap-5 sm:gap-6 md:gap-8">
 
       <div *ngIf="noResults" class="text-red-500 text-center mt-4">
-        No matching events found. Please try another keyword.
+        No matching event found. Please try another keyword.
       </div>
 
 
 
       <div *ngFor="let event of events"
-        class="group bg-gradient-to-br from-blue via-red-400 to-blue-50 backdrop-blur-sm shadow-lg hover:shadow-xl rounded-2xl overflow-hidden transition-all duration-500 hover:transform hover:-translate-y-1 border border-gray-100/50">
-
+        class="group bg-gradient-to-br from-white via-blue-200 to-blue-50 backdrop-blur-sm shadow-lg hover:shadow-xl rounded-2xl overflow-hidden transition-all duration-500 hover:transform hover:-translate-y-1 border border-gray-100/50">
+        
         <!-- Card Content -->
         <div class="flex flex-col md:flex-row gap-4 sm:gap-5 md:gap-6 p-4 sm:p-5 md:p-6 lg:p-8">
 
@@ -60,13 +60,11 @@
                 <img src="assets/images/loading.gif" alt="Loading..." class="w-10 h-10 opacity-50" />
               </div>
 
-              <!-- Actual Image -->
               <img [src]="event.image" [alt]="event.name"
                 class="w-full h-44 sm:h-56 md:h-64 object-cover transition-transform duration-700 group-hover:scale-105"
                 [class.opacity-0]="!event.loaded" [class.opacity-100]="event.loaded" (load)="event.loaded = true"
                 loading="lazy" />
 
-              <!-- Gradient Overlay -->
               <div
                 class="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               </div>
@@ -74,7 +72,6 @@
           </div>
 
 
-          <!-- Text -->
           <div class="md:w-3/5 flex flex-col justify-center space-y-3 sm:space-y-4 text-center md:text-left">
             <h3
               class="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800  transition-colors duration-300"
@@ -118,7 +115,7 @@
 </div>
 <!-- Footer -->
 <footer
-  class=" bg-gradient-to-r from-[#5d7dd3] to-[#ee4d4d] w-full text-center py-6 bg-white/80 backdrop-blur-md border-t border-gray-200 ">
+  class=" bg-gradient-to-br from-white via-blue-200 to-blue-50 w-full text-center py-6 bg-white/80 backdrop-blur-md border-t border-gray-200 ">
   <p class="text-sm text-gray-600 font-medium" style="font-family: 'Inter', sans-serif;">
     Crafted with ❤️ by
     <a href="https://cloudforest.info/" target="_blank" class="text-blue-400 hover:underline font-semibold">
