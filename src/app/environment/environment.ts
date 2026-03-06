@@ -5,6 +5,6 @@ export const environment = {
     emailServiceID: 'service_5zzwn1k',
     emailTemplateID: 'template_4gesrev',
     emailUserID: 'FjfYajRR1_Udl77Tn',
-    replyToEmail: 'hello.rahmathullaevents@gmail.com'
+    replyToEmail: 'operations.rahmathulla@gmail.com'
   };
  
